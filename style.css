@@ -18,7 +18,7 @@ body {
  background: #ffffff/*eaf1f5*/;
  color: #051f5c;
  font-size: 1.3rem;
- font-family: 'メイリオ', 'ヒラギノ角ゴ', sans-serif;
+ font-family: 'かんじゅくフォント', sans-serif;
  letter-spacing: 0.2em;
  line-height: 180%;
 }
@@ -331,7 +331,6 @@ li.linkBox_4 a::before {
 
 
 footer {
- display: none;
  padding: 0 0 5vh;
  color: #9ba4ba;
  font-size: 1rem;

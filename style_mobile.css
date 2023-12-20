@@ -1,5 +1,9 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Teko:500&display=swap');
+@font-face {
+  font-family: "かんじゅくフォント";
+  src: url("fonts/かんじゅくフォント.otf") format("opentype");
+}
 /*
 'Teko' is licensed under the Open Font License.
 https://fonts.google.com/specimen/Teko
@@ -14,7 +18,7 @@ body {
  background: #ffffff;
  color: #3b4765;
  font-size: 1.1rem;
- font-family: 'メイリオ', 'ヒラギノ角ゴ', sans-serif;
+ font-family: 'かんじゅくフォント', sans-serif;
  letter-spacing: 0.2em;
  line-height: 180%;
 }
@@ -299,7 +303,7 @@ li.linkBox_4 a::before {
 
 
 footer {
- display: none;
+ /* display: none; */
  margin: 5vw 0;
  font-size: .9rem;
  color: #bbbbbb;

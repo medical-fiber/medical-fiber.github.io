@@ -166,3 +166,59 @@ body {
     font-size: 16px;
   }
 }
+
+h1 {
+ padding: 0.5em 0;
+ font-size: 2em;
+}
+.siteInfo {
+ font-size: 1rem;
+}
+
+header {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+ margin: 10vh 0;
+ text-align: center;
+}
+
+.mainNav_wrap {
+  min-width: 500px;
+  max-width: 900px;
+ padding: 1em;
+ background: #2b3a7b;
+ color: #ffffff;
+}
+.mainNav_frame {
+ padding: 2em;
+ border: solid 2px #ffffff;
+}
+
+
+
+.mainNav {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-top: 2em;
+ margin-top: 2em;
+ border-top: solid 2px #ffffff;
+ font-family: 'Teko', sans-serif;
+}
+.mainNav li {
+ margin: 0 0.5em;
+ font-size: 1.5em;
+}
+.mainNav li a {
+ padding: 0.5em;
+ color: #ffffff;
+ transition: 0.3s;
+}
+.mainNav li a:hover {
+ color: #9ba4ba;
+}
+
+.click {
+ display: none;
+}

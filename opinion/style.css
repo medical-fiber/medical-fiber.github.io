@@ -21,6 +21,60 @@ body {
  font-family: 'かんじゅくゴシック', sans-serif;
  letter-spacing: 0.2em;
  line-height: 180%;
+ a {
+ text-decoration: none;
+}
+ul,ol {
+ list-style: none;
+}
+
+em {
+ background: #d9dbe6;
+ font-style: normal;
+}
+h2 {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+ padding: 0.5em 0;
+ margin: 1em 0 2em;
+ font-family: 'Teko', sans-serif;
+ font-size: 1.5em;
+ font-weight: normal;
+ overflow-x: hidden;
+ text-align: center;
+}
+h2::before,h2::after {
+ flex-grow: 1;
+ content: '';
+ display: inline-block;
+ border-top: solid 2px #cccccc;
+}
+h2::before {
+ margin-right: 3rem;
+}
+h2::after {
+ margin-left: 3rem;
+}
+h2.Nihongo {
+ font-size: 1.3em;
+}
+.right {
+ text-align: right;
+}
+
+h3 {
+ margin: 0.5em;
+}
+
+p {
+ padding: 0 2em;
+}
+section {
+ margin: 5vh 0 10vh;
+
+}
+
   
 }.Form {
   margin-top: 80px;
